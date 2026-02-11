@@ -6,4 +6,4 @@ console.log("JavaScript jest językiem programowania używanym do tworzenia inte
 document.getElementById("demo1").innerHTML = "Udar mózgu to poważne schorzenie wymagające natychmiastowej pomocy medycznej."; // Ten skrypt zmienia zawartość elementu HTML o id "demo1" na podany tekst.
 document.getElementById("demo2").innerHTML = "Dostałem udaru mózgu i nie mogę mówić"; // Ten skrypt zmienia zawartość elementu HTML o id "demo2" na podany tekst.js
 
-let firstName = "Jan"; //
+let firstName = "Jan"; // Deklaracja zmiennej firstName i przypisanie jej wartości "Jan".
