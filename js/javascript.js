@@ -7,3 +7,4 @@ document.getElementById("demo1").innerHTML = "Udar mózgu to poważne schorzenie
 document.getElementById("demo2").innerHTML = "Dostałem udaru mózgu i nie mogę mówić"; // Ten skrypt zmienia zawartość elementu HTML o id "demo2" na podany tekst.js
 
 let firstName = "Jan"; // Deklaracja zmiennej firstName i przypisanie jej wartości "Jan".
+console.log(firstName); // Wyświetlenie wartości zmiennej firstName w konsoli przeglądarki.
