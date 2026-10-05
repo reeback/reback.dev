@@ -1,3 +1,9 @@
+fetch("header.html")
+    .then(response => response.text())
+    .then(html => {
+        document.getElementById("header").innerHTML = html;
+    });
+
 console.log("Witaj świecie!");  // To jest mój pierwszy skrypt JavaScript.
 
 console.log("To jest mój pierwszy skrypt JavaScript."); // Ten skrypt wyświetla tekst w konsoli przeglądarki.
