@@ -1,3 +1,5 @@
+document.title ="reback.dev"; // Ustawia tytuł strony na "reback.dev".
+
 fetch("header.html")
     .then(response => response.text())
     .then(html => {
