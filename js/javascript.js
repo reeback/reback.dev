@@ -1,4 +1,4 @@
-document.title ="reback.dev"; // Ustawia tytuł strony na "reback.dev".
+document.title ="reback.dev " + "| " + document.title; // Ustawia tytuł strony na "reback.dev".
 
 fetch("header.html")
     .then(response => response.text())
