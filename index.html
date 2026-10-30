@@ -34,7 +34,8 @@
           <audio controls>
             <source
               src="sound/Everyday Relax [Codzienny Zrelaksować się].m4a"
-              type="audio/mpeg" />
+              type="audio/mpeg"
+              class="img-fluid" />
             Your browser does not support the audio element.
           </audio>
         </div>
@@ -65,23 +66,15 @@
         <div class="col">
           <h2>GoDot</h2>
           <h4>Script</h4>
-          <ul>
-            <li>var speed = 200 <em>#prędkość</em></li>
-          </ul>
-          <ul>
-            <li>func _ready() -> void: <em>#jeden raz</em></li>
-            <ul>
-              <li>print("Czesc")</li>
-            </ul>
-          </ul>
-          <ul>
-            <li>
-              func _process(delta: float) -> void: <em>#co 1/60 sekundy</em>
-            </li>
-            <ul>
-              <li>print("1")</li>
-            </ul>
-          </ul>
+          <pre>
+var speed = 200 <em>#prędkość</em>
+
+func _ready() -> void: <em>#jeden raz</em>
+print("Czesc")
+
+func _process(delta: float) -> void: <em>#co 1/60 sekundy</em>
+print("1")
+          </pre>
         </div>
       </div>
       <div class="row">
