@@ -1,0 +1,36 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.gallery img {
+  width: 180px;
+  height: 130px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.viewer {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.9);
+  justify-content: center;
+  align-items: center;
+}
+
+.viewer img {
+  max-width: 90%;
+  max-height: 85%;
+}
+
+.viewer span {
+  position: absolute;
+  top: 15px;
+  right: 30px;
+  color: white;
+  font-size: 40px;
+  cursor: pointer;
+}
