@@ -47,18 +47,13 @@
       <div class="row">
         <div class="col">
           <h2>Irritable bowel syndrome / Zespół jelita drażliwego</h2>
-          <section class="card" style="max-width: 320px">
-            <img
-              src="images/ibs/ibsFodmap.png"
-              class="card-img-top"
-              alt="FODMAP" />
-            <div class="card-body">
-              <h4 class="card-title">IBS</h4>
-              <p class="card-text">
-                Description of Irritable Bowel Syndrome (IBS).
-              </p>
-            </div>
-          </section>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div id="ibs" class="gallery">
+            <img src="images/ibs/ibsFodmap.png" />
+          </div>
         </div>
       </div>
     </div>
@@ -113,37 +108,35 @@ print("1")
       </div>
     </div> -->
 
-    <h2>Gallery 1</h2>
-    <div id="gallery1" class="gallery">
-      <img src="images/photo1.jpg" />
-      <img src="images/photo2.jpg" />
-      <img src="images/photo3.jpg" />
-    </div>
-
-    <h2>Gallery 2</h2>
-    <div id="gallery2" class="gallery">
-      <img src="images/photo4.jpg" />
-      <img src="images/photo5.jpg" />
-      <img src="images/photo6.jpg" />
-    </div>
-
-    <div id="viewer" class="viewer">
-      <span onclick="closeImage()">×</span>
-      <img id="largeImage" />
-    </div>
+    <!-- <div class="row">
+      <div class="col">
+        <h2>Gallery 1</h2>
+        <div id="gallery1" class="gallery">
+          <img src="images/photo1.jpg" />
+          <img src="images/photo2.jpg" />
+          <img src="images/photo3.jpg" />
+        </div>
+      </div>
+    </div> -->
 
     <div class="container">
       <div class="row">
         <div class="col">
           <h2>WWW</h2>
           <h4>Image</h4>
-          <img src="images/www/cropTool.png" alt="Crop Tool" />
+          <div id="www" class="gallery">
+            <img src="images/www/cropTool.png" />
+          </div>
           <p>Pixel > Crop Tool</p>
         </div>
       </div>
     </div>
 
-    <script src="gallery.js"></script>
+    <div id="viewer" class="viewer">
+      <span onclick="closeImage()">×</span>
+      <img id="largeImage" />
+    </div>
   </body>
+  <script src="js/gallery.js"></script>
   <script src="/js/javascript.js"></script>
 </html>
